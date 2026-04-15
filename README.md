@@ -32,12 +32,32 @@ The goal of this project is to:
 
 - `streamlit_deebiga_dashboard.py` → Main Streamlit dashboard app
 - `batch 4 dataset-housing data (1).csv` → Housing dataset 
-- `FINAL DASHBOARD copy*.pdf` → Project report PDFs
-
+- `report of housing data.pdf → Project report PDF
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/deebiga27/Housing-data-analysis.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+ pip install streamlit pandas matplotlib
+   ```
+
+3. **Run the app**:
+   ```bash
+ py -m streamlit run streamlit_deebiga_dashboard.py
+   ```
+
+---
+
+### 📄 Project Report
+
+Download the complete project report with dashboard screenshots and analysis:
+
+**[report of housing data.pdf](./report%20of%20housing%20data.pdf)**
+
+---
